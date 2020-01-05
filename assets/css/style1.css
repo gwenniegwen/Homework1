@@ -6,7 +6,7 @@
         color: #fff;
         position: relative;
         margin: 0 0 0 0px;
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
         overflow: hidden;
         width: 100%;}
 
@@ -17,13 +17,16 @@
         float: left;
         font-family: Georgia, Times, "Times New Roman", serif;
         font-size: 15px;
-        font-weight: 199;
+        font-weight: 200;
         height: 50px;
-        left: 15%;
-        margin-top: 20px;
+        left: 30%;
+        margin-top: 30px;
+        padding-top: 20px;
         position: absolute;
         text-align: center;
-        padding-top: 30px;}
+        /* padding-top: 14px; */
+        
+    }
         
     nav {
     float: right;
@@ -60,39 +63,51 @@ li{
 float: left;
 text-decoration: none;
 color:#777777;
-font-family: "Georgia, Times, Times New Roman, serif";} 
-
- .container{ 
-     background-color: #ffffff;
-     border-color:#dddddd;
-     border-style: solid;
-     border-width: 2px;
-    clear: both; 
-    color:#777777;
-    line-height: 30px;
-    margin-bottom: 100px;
-    margin-left: 200px;
-    overflow: hidden;
-    padding: 20px;
-    /* position: absolute; */
-    width: 960px;}
-
-img {float: Left;
-margin: 10px;}
-
-
+font-family: "'Georgia', Times, 'Times New Roman', serif";} 
 body{ 
-    background-color:#4aaaa5;
+   
+    background-color: teal;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: "'Arial', 'Helvetica Neue', Helvetica, sans-serif";
     width: 100%;}
 
-#me { font-family:"Georgia, Times, Times New Roman, serif";
-    color:#4aaaa5;}
+.container{ 
+color:#777777;
+border-color:#dddddd;
+border-width: 2px;
+border-style: solid;
+border-radius: 5px;
+background-color: #ffffff;
 
-hr { color:#777777;}
+margin-left: 450px;
+margin-bottom: 250px;
+padding: 20px;
+width: 500px;}
+
+#c{margin:0;
+padding: 0;
+color: teal;}
+
+input[type=text], select, textarea {
+     
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    box-sizing: border-box;
+    resize: vertical; 
+    width: 100%; }
+
+  input[type=submit] {
+    background-color: teal;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;}
+
+  input[type=submit]:hover {
+    background-color: red;}
 
 .footer {
     position: fixed;
@@ -103,7 +118,9 @@ hr { color:#777777;}
     color: white;
     text-align: center;
     height: 40px;
-    border-top: 8px solid #4aaaa5;
-  clear: both;}
+    border-top: 8px solid #4aaaa5;}
 
+ 
+
+  
   
